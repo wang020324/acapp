@@ -18,6 +18,6 @@ from django.urls import path, include
 
 # 将game中的url调用进来
 urlpatterns = [
-    # path('game/',include('game.urls')),
+    path('game/',include('game.urls.index')),
     path('admin/', admin.site.urls),
 ]
